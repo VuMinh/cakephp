@@ -1,0 +1,750 @@
+2018-04-11 08:21:28 Error: [MissingViewException] View file "Books\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\index.ctp',
+)
+Request URL: /cake_v2/books
+Stack Trace:
+#0 E:\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 E:\cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 E:\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-04-11 08:21:43 Error: [MissingViewException] View file "Books\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\index.ctp',
+)
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 E:\cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 E:\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-04-11 08:31:26 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:31:26 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:18 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:18 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:19 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:19 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:20 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:20 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:20 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:20 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:20 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:20 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:21 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:21 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:50 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:50 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:51 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:51 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:52 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:52 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:52 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:52 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:33:52 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 20]
+2018-04-11 08:33:52 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 20, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:36 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:36 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:37 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:37 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:38 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:38 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:38 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:38 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:38 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:38 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:40 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:40 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:40 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:41 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:41 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:41 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:34:41 Error: Fatal Error (4): syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 22]
+2018-04-11 08:34:41 Error: [FatalErrorException] syntax error, unexpected 'Book' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 22, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:35:10 Error: Fatal Error (4): syntax error, unexpected '}' in [E:\cakephp\app\View\Books\index.ctp, line 23]
+2018-04-11 08:35:10 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:35:11 Error: Fatal Error (4): syntax error, unexpected '}' in [E:\cakephp\app\View\Books\index.ctp, line 23]
+2018-04-11 08:35:11 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:35:11 Error: Fatal Error (4): syntax error, unexpected '}' in [E:\cakephp\app\View\Books\index.ctp, line 23]
+2018-04-11 08:35:11 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cake_v2/books/index
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 23, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 08:40:54 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:22 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:23 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:24 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:24 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:24 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:24 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:24 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:25 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:25 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books/view/6
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 08:51:27 Error: [MissingActionException] Action BooksController::books() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'books',
+)
+Request URL: /cake_v2/books/books
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 09:31:29 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\cakephp\app\View\Books\index.ctp, line 9]
+2018-04-11 09:31:29 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cake_v2/books/
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 9, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 9, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 09:32:17 Error: Fatal Error (4): syntax error, unexpected ';' in [E:\cakephp\app\View\Books\index.ctp, line 30]
+2018-04-11 09:32:17 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /cake_v2/books/
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 30, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 30, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 09:32:50 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [E:\cakephp\app\View\Books\index.ctp, line 31]
+2018-04-11 09:32:50 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake_v2/books/
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 09:32:51 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [E:\cakephp\app\View\Books\index.ctp, line 31]
+2018-04-11 09:32:51 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake_v2/books/
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 09:32:51 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [E:\cakephp\app\View\Books\index.ctp, line 31]
+2018-04-11 09:32:51 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cake_v2/books/
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 31, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 09:33:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exits' at line 1
+Request URL: /cake_v2/books/edit/1
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('exits', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('exits', Array, Array)
+#3 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(618): DboSource->fetchAll('exits', Array, Array)
+#4 E:\cakephp\lib\Cake\Model\Model.php(834): DboSource->query('exits', Array, Object(Book))
+#5 E:\cakephp\app\Controller\BooksController.php(70): Model->__call('exits', Array)
+#6 E:\cakephp\app\Controller\BooksController.php(70): Book->exits()
+#7 [internal function]: BooksController->edit('1')
+#8 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#9 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#11 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-04-11 09:34:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exits' at line 1
+Request URL: /cake_v2/books/edit/1
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('exits', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('exits', Array, Array)
+#3 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(618): DboSource->fetchAll('exits', Array, Array)
+#4 E:\cakephp\lib\Cake\Model\Model.php(834): DboSource->query('exits', Array, Object(Book))
+#5 E:\cakephp\app\Controller\BooksController.php(70): Model->__call('exits', Array)
+#6 E:\cakephp\app\Controller\BooksController.php(70): Book->exits()
+#7 [internal function]: BooksController->edit('1')
+#8 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#9 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#11 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-04-11 09:34:44 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exits' at line 1
+Request URL: /cake_v2/books/edit/1
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('exits', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('exits', Array, Array)
+#3 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(618): DboSource->fetchAll('exits', Array, Array)
+#4 E:\cakephp\lib\Cake\Model\Model.php(834): DboSource->query('exits', Array, Object(Book))
+#5 E:\cakephp\app\Controller\BooksController.php(70): Model->__call('exits', Array)
+#6 E:\cakephp\app\Controller\BooksController.php(70): Book->exits()
+#7 [internal function]: BooksController->edit('1')
+#8 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#9 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#11 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-04-11 09:34:49 Error: Fatal Error (4): syntax error, unexpected '?>' in [E:\cakephp\app\View\Books\add.ctp, line 10]
+2018-04-11 09:34:49 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /cake_v2/books/add
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 10, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 10, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 09:35:19 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'isbn' doesn't have a default value
+Request URL: /cake_v2/books/add
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `pj...', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `pj...')
+#3 E:\cakephp\lib\Cake\Model\Model.php(1942): DboSource->create(Object(Book), Array, Array)
+#4 E:\cakephp\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#5 E:\cakephp\app\Controller\BooksController.php(54): Model->save(Array)
+#6 [internal function]: BooksController->add()
+#7 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#8 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#10 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-04-11 09:35:56 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'isbn' doesn't have a default value
+Request URL: /cake_v2/books/add
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('INSERT INTO `pj...', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(1092): DboSource->execute('INSERT INTO `pj...')
+#3 E:\cakephp\lib\Cake\Model\Model.php(1942): DboSource->create(Object(Book), Array, Array)
+#4 E:\cakephp\lib\Cake\Model\Model.php(1760): Model->_doSave(Array, Array)
+#5 E:\cakephp\app\Controller\BooksController.php(54): Model->save(Array)
+#6 [internal function]: BooksController->add()
+#7 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#8 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#10 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2018-04-11 09:36:19 Error: [MissingActionException] Action BooksController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'delete',
+)
+Request URL: /cake_v2/books/delete/1
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 09:38:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'exits' at line 1
+Request URL: /cake_v2/books/edit/1
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('exits', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('exits', Array, Array)
+#3 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(618): DboSource->fetchAll('exits', Array, Array)
+#4 E:\cakephp\lib\Cake\Model\Model.php(834): DboSource->query('exits', Array, Object(Book))
+#5 E:\cakephp\app\Controller\BooksController.php(70): Model->__call('exits', Array)
+#6 E:\cakephp\app\Controller\BooksController.php(70): Book->exits()
+#7 [internal function]: BooksController->edit('1')
+#8 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#9 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#11 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-04-11 09:39:54 Error: [MissingViewException] View file "Books\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\edit.ctp',
+)
+Request URL: /cake_v2/books/edit/1
+Stack Trace:
+#0 E:\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 E:\cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 E:\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-04-11 09:40:03 Error: [MissingActionException] Action BooksController::delete() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'delete',
+)
+Request URL: /cake_v2/books/delete/1
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-11 09:58:32 Error: Fatal Error (4): syntax error, unexpected '?>' in [E:\cakephp\app\View\Books\view.ctp, line 9]
+2018-04-11 09:58:32 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /cake_v2/books/view/2
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 9, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 9, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 10:13:29 Error: Fatal Error (4): syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 19]
+2018-04-11 10:13:29 Error: [FatalErrorException] syntax error, unexpected 'text' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 10:14:04 Error: Fatal Error (4): syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 19]
+2018-04-11 10:14:04 Error: [FatalErrorException] syntax error, unexpected 'text' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 10:14:05 Error: Fatal Error (4): syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 19]
+2018-04-11 10:14:05 Error: [FatalErrorException] syntax error, unexpected 'text' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-11 10:14:05 Error: Fatal Error (4): syntax error, unexpected 'text' (T_STRING), expecting ',' or ';' in [E:\cakephp\app\View\Books\index.ctp, line 19]
+2018-04-11 10:14:05 Error: [FatalErrorException] syntax error, unexpected 'text' (T_STRING), expecting ',' or ';'
+Request URL: /cake_v2/books
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\cakephp\\app\\...', 19, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-12 04:04:18 Error: [MissingViewException] View file "Books\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\delete.ctp',
+)
+Request URL: /cake_v2/books/delete/2
+Stack Trace:
+#0 E:\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 E:\cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 E:\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-04-12 04:05:55 Error: [MissingViewException] View file "Books\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\delete.ctp',
+)
+Request URL: /cake_v2/books/delete/2
+Stack Trace:
+#0 E:\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 E:\cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 E:\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-04-12 04:06:01 Error: [MissingViewException] View file "Books\delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\delete.ctp',
+)
+Request URL: /cake_v2/books/delete/2
+Stack Trace:
+#0 E:\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 E:\cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 E:\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-04-12 06:40:07 Error: Fatal Error (1): Call to undefined function c() in [E:\cakephp\app\View\Books\index.ctp, line 8]
+2018-04-12 06:40:07 Error: [FatalErrorException] Call to undefined function c()
+Request URL: /cake_v2/books
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Error\ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'E:\\cakephp\\app\\...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'E:\\cakephp\\app\\...', 8, Array)
+#2 E:\cakephp\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'E:\\cakephp\\app\\...', 8, Array)
+#3 E:\cakephp\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-04-12 07:08:55 Error: [MissingActionException] Action BooksController::post() could not be found.
+Exception Attributes: array (
+  'controller' => 'BooksController',
+  'action' => 'post',
+)
+Request URL: /cake_v2/books/post
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#2 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-04-12 07:53:05 Error: [MissingViewException] View file "Books\index2.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Books\\index2.ctp',
+)
+Request URL: /cake_v2/books/index2
+Stack Trace:
+#0 E:\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 E:\cakephp\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 E:\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest))
+#4 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-04-13 06:44:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'users where username='minhvt' and password='e10adc3949ba59abbe56e057f20f883e'' at line 1
+Request URL: /cake_v2/users/login
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('select username...', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('select username...', Array, Array)
+#3 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('select username...', false)
+#4 [internal function]: DboSource->query('select username...', false)
+#5 E:\cakephp\lib\Cake\Model\Model.php(3476): call_user_func_array(Array, Array)
+#6 E:\cakephp\app\Model\User.php(16): Model->query('select username...')
+#7 E:\cakephp\app\Controller\UsersController.php(27): User->checkLogin('minhvt', 'e10adc3949ba59a...')
+#8 [internal function]: UsersController->login()
+#9 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-04-13 06:45:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'users where username='minhvt' and password='e10adc3949ba59abbe56e057f20f883e'' at line 1
+Request URL: /cake_v2/users/login
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('select username...', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('select username...', Array, Array)
+#3 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('select username...', false)
+#4 [internal function]: DboSource->query('select username...', false)
+#5 E:\cakephp\lib\Cake\Model\Model.php(3476): call_user_func_array(Array, Array)
+#6 E:\cakephp\app\Model\User.php(16): Model->query('select username...')
+#7 E:\cakephp\app\Controller\UsersController.php(27): User->checkLogin('minhvt', 'e10adc3949ba59a...')
+#8 [internal function]: UsersController->login()
+#9 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2018-04-16 10:20:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id!=' in 'where clause'
+Request URL: /cake_v2/admin/users/edit/1
+Stack Trace:
+#0 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(472): PDOStatement->execute(Array)
+#1 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(438): DboSource->_execute('SELECT `User`.`...', Array)
+#2 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(675): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 E:\cakephp\lib\Cake\Model\Datasource\DboSource.php(1186): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 E:\cakephp\lib\Cake\Model\Model.php(3040): DboSource->read(Object(User), Array)
+#5 E:\cakephp\lib\Cake\Model\Model.php(3012): Model->_readDataSource('first', Array)
+#6 E:\cakephp\app\Model\User.php(102): Model->find('first', Array)
+#7 [internal function]: User->checkUsername(Array, Array)
+#8 E:\cakephp\lib\Cake\Model\Validator\CakeValidationRule.php(275): call_user_func_array(Array, Array)
+#9 E:\cakephp\lib\Cake\Model\Validator\CakeValidationSet.php(135): CakeValidationRule->process('username', Array, Array)
+#10 E:\cakephp\lib\Cake\Model\ModelValidator.php(268): CakeValidationSet->validate(Array, true)
+#11 E:\cakephp\lib\Cake\Model\ModelValidator.php(99): ModelValidator->errors(Array)
+#12 E:\cakephp\lib\Cake\Model\Model.php(3489): ModelValidator->validates(Array)
+#13 E:\cakephp\app\Model\User.php(73): Model->validates(Array)
+#14 E:\cakephp\app\Controller\UsersController.php(45): User->validateUser()
+#15 [internal function]: UsersController->admin_edit('1')
+#16 E:\cakephp\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#17 E:\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#18 E:\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#19 E:\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
